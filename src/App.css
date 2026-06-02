@@ -9,7 +9,7 @@
 }
 
 .navbar span {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
   color: #111;
   cursor: pointer;
@@ -55,5 +55,12 @@
   border: none;
   font-size: 16px;
   cursor: pointer;
-  background-color: var(--primary-color);
+  background-color: var(--primary-dark);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
 }
