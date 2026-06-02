@@ -12,44 +12,44 @@ import {
 const Hero = () => {
   return (
     <section>
-      <div>
+      <div className="hero-text-container">
         <div className="hero-text">
           <span>Hello, I'm </span>
-          <h1>Chinedu Daniel</h1>
-          <h3>SOFTWARE ENGINEER</h3>
-          <p>
+          <h1 className="hero-name">Chinedu Daniel</h1>
+          <h3 className="hero-title">SOFTWARE ENGINEER</h3>
+          <p className="hero-description">
             A Full-Stack Developer who builds fast, scalable, <br /> and modern
             web applications with a focus on clean UI, <br /> solid backend
             systems, and cloud-ready deployments.
           </p>
         </div>
 
-        <div>
-          <button>
+        <div className="hero-buttons">
+          <button className="view-work-btn">
             View My Work <FontAwesomeIcon icon={faArrowRight} />
           </button>
 
-          <button>
+          <button className="download-btn">
             Document CV <FontAwesomeIcon icon={faDownload} />
           </button>
         </div>
-        <div>
-          <a href="https://github.com/chinedu-daniel/">
+        <div className="hero-social-links">
+          <a href="https://github.com/chinedu-daniel/" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://www.linkedin.com/in/chinedu-daniel-precious-a96101310/">
+          <a href="https://www.linkedin.com/in/chinedu-daniel-precious-a96101310/" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://x.com/Chinedu_PD">
+          <a href="https://x.com/Chinedu_PD" target="_blank">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="https://www.instagram.com/chinedu_daniel/">
+          <a href="https://www.instagram.com/chinedu_daniel/" target="_blank">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
       </div>
 
-      <div>
+      <div className="hero-image">
         <img src={ProfilePic} alt="profile picture" />
       </div>
     </section>
