@@ -30,7 +30,7 @@ const Hero = () => {
           </button>
 
           <button className="download-btn">
-            Document CV <FontAwesomeIcon icon={faDownload} />
+            Download CV <FontAwesomeIcon icon={faDownload} />
           </button>
         </div>
         <div className="hero-social-links">
