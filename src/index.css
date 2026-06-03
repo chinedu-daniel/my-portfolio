@@ -5,12 +5,12 @@
   --primary-light: #a78bfa;
   --primary-dark: #7c3aed;
   --text-color: #1f2937;
-  --background-color: #ffffff;
+  --background-color: #f5f0ff;
 }
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: var(--background);
+  background-color: var(--background-color);
   color: var(--text);
   margin: 0;
   padding: 0;
