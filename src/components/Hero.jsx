@@ -9,6 +9,25 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
+const links = [
+  {
+    icon: faGithub,
+    url: "https://github.com/chinedu-daniel/"
+  },
+  {
+    icon: faLinkedin,
+    url: "https://www.linkedin.com/in/chinedu-daniel-precious-a96101310/"
+  },
+  {
+    icon: faTwitter,
+    url: "https://x.com/Chinedu_PD"
+  },
+  {
+    icon: faInstagram,
+    url: "https://www.instagram.com/chinedu_daniel/"
+  }
+];
+
 const Hero = () => {
   return (
     <section className="hero-section">
@@ -31,8 +50,14 @@ const Hero = () => {
             Download CV <FontAwesomeIcon icon={faDownload} />
           </button>
         </div>
+
         <div className="hero-social-links">
-          <a href="https://github.com/chinedu-daniel/" target="_blank">
+          {links.map((link, index) => (
+            <a href={link.url} target="_blank" key={index}>
+              <FontAwesomeIcon icon={link.icon} />
+            </a>
+          ))}
+          {/* <a href="https://github.com/chinedu-daniel/" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
@@ -46,7 +71,7 @@ const Hero = () => {
           </a>
           <a href="https://www.instagram.com/chinedu_daniel/" target="_blank">
             <FontAwesomeIcon icon={faInstagram} />
-          </a>
+          </a> */}
         </div>
       </div>
 

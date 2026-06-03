@@ -6,21 +6,21 @@ import pic from "../assets/images/ken.png";
 const projects = [
     {
         image: pic,
-        title: "Project 1",
-        description: "This is the first project.",
-        value: "React, Node.js, MongoDB",
+        title: "Real Estate App",
+        description: "A modern real estate application for buying and selling properties.",
+        value: "Web Development",
     },
     {
         image: pic,
-        title: "Project 2",
-        description: "This is the second project.",
-        value: "React, Node.js, MongoDB",
+        title: "Real Estate App",
+        description: "A modern real estate application for buying and selling properties.",
+        value: "Web Development",
     },
     {
         image: pic,
-        title: "Project 3",
-        description: "This is the third project.",
-        value: "React, Node.js, MongoDB",
+        title: "Real Estate App",
+        description: "A modern real estate application for buying and selling properties.",
+        value: "Web Development",
     },
 ]
 
