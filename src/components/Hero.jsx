@@ -57,21 +57,6 @@ const Hero = () => {
               <FontAwesomeIcon icon={link.icon} />
             </a>
           ))}
-          {/* <a href="https://github.com/chinedu-daniel/" target="_blank">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/chinedu-daniel-precious-a96101310/"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a href="https://x.com/Chinedu_PD" target="_blank">
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
-          <a href="https://www.instagram.com/chinedu_daniel/" target="_blank">
-            <FontAwesomeIcon icon={faInstagram} />
-          </a> */}
         </div>
       </div>
 

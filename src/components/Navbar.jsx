@@ -1,5 +1,28 @@
 import React from 'react'
 
+const navlinks = [
+    {
+        name: "Home",
+        link: "/"
+    },
+    {
+        name: "About",
+        link: "/about"
+    },
+    {
+        name: "Projects",
+        link: "/projects"
+    },
+    {
+        name: "Skills",
+        link: "/skills"
+    },
+    {
+        name: "Contacts",
+        link: "/contacts"
+    }
+];
+
 const Navbar = () => {
   return (
         <nav className='navbar'>
@@ -8,12 +31,13 @@ const Navbar = () => {
             </div>
 
             <div className='nav-links'>
-                <a href="/" className='home'>Home</a>
-                <a href="/about" id="about">About</a>
-                <a href="/projects" id="projects">Projects</a>
-                <a href="/skills" id="skills">Skills</a>
-                <a href="/contacts" id="contacts">Contacts</a>
+                {navlinks.map((navlink, index) => (
+                    <a href={navlink.link} key={index}>
+                        {navlink.name}
+                    </a>
+                ))}
             </div>
+            
             <div className='nav-button'>
                 <button>Let's Connect</button>
             </div>
