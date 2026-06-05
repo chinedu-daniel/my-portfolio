@@ -42,8 +42,8 @@ const Hero = () => {
         </div>
 
         <div className="hero-buttons">
-          <button className="view-work-btn">
-            View My Work <FontAwesomeIcon icon={faArrowRight} />
+          <button className="view-work-btn" >
+            View My Work <FontAwesomeIcon icon={faArrowRight}/>
           </button>
 
           <button className="download-btn">
