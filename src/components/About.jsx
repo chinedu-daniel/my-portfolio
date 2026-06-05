@@ -1,6 +1,6 @@
 import { faBriefcase, faGraduationCap, faLocationArrow, faLocationDot, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useState } from "react";
 
 const info = [
     {
@@ -26,8 +26,10 @@ const info = [
 ];
 
 const About = () => {
+  const [showMore, setShowMore] = useState(false);
+
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="about-text-container">
         <div className="about-text">
           <span>About Me </span>
@@ -38,10 +40,21 @@ const About = () => {
             systems and deployed cloud solutions. <br />
             I enjoy turning ideas into real-world products that are user-friendly.
           </p>
+
+          {showMore && (
+            <p className="about-description">
+              With over 2 years of experience, I have a strong foundation in both <br />
+              front-end and back-end development. I have worked on various projects, <br />
+              ranging from small business websites to complex web applications. I am <br />
+              proficient in technologies such as React, Node.js, Express, and MongoDB. 
+            </p>
+          )}
         </div>
 
         <div className="about-buttons">
-          <button className="read-more-btn">Read More</button>
+          <button className="read-more-btn" onClick={() => {setShowMore(!showMore)}}>
+            {showMore ? 'Read Less' : 'Read More'}
+          </button>
         </div>
       </div>
 

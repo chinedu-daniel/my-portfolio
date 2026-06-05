@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contacts">
       <div className="contact-container">
         <div className="contact-text">
           <span>Contact</span>
