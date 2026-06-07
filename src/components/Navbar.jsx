@@ -13,10 +13,10 @@ const navlinks = [
         name: "Projects",
         link: "#projects"
     },
-    {
-        name: "Skills",
-        link: "#skills"
-    },
+    // {
+    //     name: "Skills",
+    //     link: "#skills"
+    // },
     {
         name: "Contacts",
         link: "#contacts"
