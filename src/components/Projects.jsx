@@ -7,6 +7,7 @@ import finvault from "../assets/images/finvault.png";
 
 const projects = [
   {
+    id: 0,
     image: pic,
     title: "Real Estate App",
     description:
@@ -14,12 +15,14 @@ const projects = [
     value: "Web Development",
   },
   {
+    id: 1,
     image: livescore,
     title: "Live Score App",
     description: "A modern live score application for sports live update.",
     value: "Web Development",
   },
   {
+    id: 2,
     image: finvault,
     title: "FinTech App",
     description:

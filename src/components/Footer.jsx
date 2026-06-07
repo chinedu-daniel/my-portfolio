@@ -25,7 +25,7 @@ const navlinks = [
 
 const Footer = () => {
   return (
-    <section className="footer-section">
+    <section className="footer-section" id>
       <p>&copy; 2026 <span>Chinedu Daniel</span>. All rights reserved.</p>
 
       <div className="footer-links">

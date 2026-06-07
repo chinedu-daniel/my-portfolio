@@ -12,21 +12,24 @@ import {
 const links = [
   {
     icon: faGithub,
-    url: "https://github.com/chinedu-daniel/"
+    url: "https://github.com/chinedu-daniel/",
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com/in/chinedu-daniel-precious-a96101310/"
+    url: "https://www.linkedin.com/in/chinedu-daniel-precious-a96101310/",
   },
   {
     icon: faTwitter,
-    url: "https://x.com/Chinedu_PD"
+    url: "https://x.com/Chinedu_PD",
   },
   {
     icon: faInstagram,
-    url: "https://www.instagram.com/chinedu_daniel/"
-  }
+    url: "https://www.instagram.com/chinedu_daniel/",
+  },
 ];
+
+const cv =
+  "https://docs.google.com/document/d/1v3SamM9zFGcI1kTI6f3z6tUl_GmXp69b8eT3ySvrALk/edit?usp=sharing";
 
 const Hero = () => {
   return (
@@ -42,13 +45,17 @@ const Hero = () => {
         </div>
 
         <div className="hero-buttons">
-          <button className="view-work-btn" >
-            View My Work <FontAwesomeIcon icon={faArrowRight}/>
-          </button>
+          <a href="#projects">
+            <button className="view-work-btn">
+              View My Work <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </a>
 
-          <button className="download-btn">
-            Download CV <FontAwesomeIcon icon={faDownload} />
-          </button>
+          <a href={cv} target="_blank">
+            <button className="download-btn">
+              Download CV <FontAwesomeIcon icon={faDownload} />
+            </button>
+          </a>
         </div>
 
         <div className="hero-social-links">
