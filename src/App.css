@@ -164,7 +164,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 5vw;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
 }
 
 .about-text {
@@ -515,6 +515,16 @@
   .about-buttons {
     flex-direction: column;
     display: flex;
+    align-items: flex-start;
     width: 100%;
+  }
+
+  .about-buttons button {
+    width: 100%;
+  }
+
+  .about-grid {
+    width: 100%;
+    /* grid-template-columns: 1fr; */
   }
 }
