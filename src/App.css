@@ -150,9 +150,12 @@
 }
 
 .hero-social-links a {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
   color: var(--text);
   font-size: 18px;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .hero-social-links a:hover {
@@ -512,11 +515,23 @@
     font-size: 32px;
   }
 
+  .about-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+  margin-top: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
   .about-buttons {
     flex-direction: column;
     display: flex;
     align-items: flex-start;
     width: 100%;
+    border-radius: 30px;
   }
 
   .about-buttons button {
@@ -526,5 +541,9 @@
   .about-grid {
     width: 100%;
     /* grid-template-columns: 1fr; */
+  }
+
+  .about-card {
+    padding: 15px;
   }
 }
