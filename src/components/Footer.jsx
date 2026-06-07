@@ -3,23 +3,23 @@ import React from "react";
 const navlinks = [
   {
     name: "Home",
-    link: "/",
+    link: "#",
   },
   {
     name: "About",
-    link: "/about",
+    link: "#about",
   },
   {
     name: "Projects",
-    link: "/projects",
+    link: "#projects",
   },
   {
     name: "Skills",
-    link: "/skills",
+    link: "#skills",
   },
   {
     name: "Contacts",
-    link: "/contacts",
+    link: "#contacts",
   },
 ];
 
