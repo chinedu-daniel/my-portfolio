@@ -33,7 +33,7 @@ const About = () => {
       <div className="about-text-container">
         <div className="about-text">
           <span>About Me </span>
-          <h1 className="about-name">About Me</h1>
+          {/* <h1 className="about-name">About Me</h1> */}
           <p className="about-description">
             I’m a Full Stack Developer passionate about building <br /> complete web
             experiences from intuitive front-end interfaces <br /> to robust backend
