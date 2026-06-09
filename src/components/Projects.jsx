@@ -68,7 +68,7 @@ const Projects = () => {
 
       {showMore && (
         <div className="project-grid">
-        {projects.slice(0).map((item, index) => (
+        {projects.map((item, index) => (
           <div key={index} className="project-card">
             <div className="project-image">
               <img src={item.image} alt="project image" />
