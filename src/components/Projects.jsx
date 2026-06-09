@@ -1,9 +1,9 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import pic from "../assets/images/ken.png";
-import livescore from "../assets/images/livescore.png";
-import finvault from "../assets/images/finvault.png";
+import pic from "../assets/images/ken.jpg";
+import livescore from "../assets/images/livescore.jpg";
+import finvault from "../assets/images/finvault.jpg";
 
 const projects = [
   {
